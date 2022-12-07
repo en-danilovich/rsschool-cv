@@ -5,8 +5,11 @@
 ## Contacts
 
 **Phone:** +375 (29) 789-15-25
+
 **E-mail:** bluerayend@gmail.com
+
 **Location**: Minsk, Belarus
+
 **LinkedIn:** [eugene-danilovich](https://www.linkedin.com/in/eugene-danilovich-9a266716a/)
 
 ## Summary
@@ -38,16 +41,18 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 ## Work Experience
 
 * **QA Automation Engineer, 2018 - 2021, A1QA**
+
 *Testing application for the analysis of compositions of liquids and substances*
 The project presupposes testing a desktop application for analyzing the composition of liquids and substances. The application includes the user part, administration part, database and working with the large amount of data. It was necessary to implement a set of automated tests covering regression testing of application functionality.
 
 * **QA Automation Engineer, 2021 - Present, SiliconMint**
+
 *Telecommunications operator billing distributed system (REST)*
 The product under test is a billing distributed system for a mobile communication operator working in all segments of the telecommunications market. Within the framework of the project, it was necessary to implement a solution covering the main business scenarios of working with the system including the automation of regression tests.
 
 ## Education
 
-**University:** Belarusian National Technical University( 2014-2018)
+**University:** Belarusian National Technical University (2014-2018)
 
 **Courses:**
 * Udemy - [Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
