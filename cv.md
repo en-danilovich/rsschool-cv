@@ -15,21 +15,19 @@ QA automation engineer with more than 3 years of practical experience. He partic
 
 ## Skills
 
-- C#/.NET
-- REST API
-- SOAP
-- OOP
-- HTML5
-- MySql
-- Git
+* C#/.NET
+* REST API
+* SOAP
+* OOP
+* HTML5
+* MySql
+* Git
 
 ## Code example
 
-**CODEWARS Kata task:** \_You were camping with your friends far away from home, but when it's time to go back, you realize that your fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left.
-
+**CODEWARS Kata task:** *You were camping with your friends far away from home, but when it's time to go back, you realize that your fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left.
 Considering these factors, write a function that tells you if it is possible to get to the pump or not.
-
-Function should return true if it is possible and false if not.\_
+Function should return true if it is possible and false if not.*
 
 ```javascript
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
@@ -39,23 +37,21 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 
 ## Work Experience
 
-**QA Automation Engineer, 2018 - 2021, A1QA**
-Testing application for the analysis of compositions of liquids and substances
-The project presupposes testing a desktop application for analyzing the composition of liquids and substances. The application includes the user part, administration part, database and working with the large amount of data.
-It was necessary to implement a set of automated tests covering regression testing of application functionality.
+* **QA Automation Engineer, 2018 - 2021, A1QA**
+*Testing application for the analysis of compositions of liquids and substances*
+The project presupposes testing a desktop application for analyzing the composition of liquids and substances. The application includes the user part, administration part, database and working with the large amount of data. It was necessary to implement a set of automated tests covering regression testing of application functionality.
 
-**QA Automation Engineer, 2021 - Present, SiliconMint**
-Telecommunications operator billing distributed system (REST)
-The product under test is a billing distributed system for a mobile communication operator working in all segments of the telecommunications market.
-Within the framework of the project, it was necessary to implement a solution covering the main business scenarios of working with the system including the automation of regression tests.
+* **QA Automation Engineer, 2021 - Present, SiliconMint**
+*Telecommunications operator billing distributed system (REST)*
+The product under test is a billing distributed system for a mobile communication operator working in all segments of the telecommunications market. Within the framework of the project, it was necessary to implement a solution covering the main business scenarios of working with the system including the automation of regression tests.
 
 ## Education
 
 **University:** Belarusian National Technical University( 2014-2018)
 
 **Courses:**
-
-- Udemy - [Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/learn/lecture/27512138?start=0#overview)
+* Udemy - [Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
+* Udemy - [Advanced CSS and SASS](https://www.udemy.com/course/advanced-css-and-sass/)
 
 ## Languages
 
