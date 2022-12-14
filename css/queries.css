@@ -1,0 +1,89 @@
+/* 1024px */
+@media (max-width: 64em) {
+  html {
+    /* 9px / 16px */
+    font-size: 56.25%;
+  }
+
+  .grid {
+    gap: 4.8rem;
+  }
+
+  .section-profile-summary .grid {
+    gap: 3.2rem;
+  }
+
+  .section-profile-title {
+    padding-top: 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 2rem;
+  }
+
+  .experience-details-box::before {
+    left: -2.4rem;
+  }
+}
+
+/* 848px */
+@media (max-width: 53em) {
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-primary {
+    font-size: 5.2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 1.6rem;
+  }
+
+  .professional-title {
+    font-size: 1.6rem;
+  }
+
+  .profile-details-container {
+    gap: 4.8rem;
+  }
+
+  .profile-img-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-profile-summary {
+    padding: 4.8rem;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+  }
+
+  .contact-details .heading-secondary {
+    display: block;
+  }
+
+  .experience-details-box::before {
+    display: none;
+  }
+
+  .details:last-child {
+    border-bottom: 1px solid #eee;
+  }
+}
+
+/* 480px */
+@media (max-width: 30em) {
+  .footer-container {
+    flex-direction: column;
+  }
+}

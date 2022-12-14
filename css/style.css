@@ -1,0 +1,308 @@
+/*
+ 02 COLORS
+ #384c57
+ #d2d8b3
+*/
+
+/* ****************************** */
+/* Navigation */
+/* ****************************** */
+
+.header {
+  background-color: #30414b;
+  padding: 2.4rem;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-nav-list {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #d4deed;
+  transition: color .3s;
+}
+
+.main-nav-link:active,
+.main-nav-link:hover {
+  color: #f1f4f9;
+}
+
+/* ****************************** */
+/* Profile Title */
+/* ****************************** */
+
+.section-profile-title {
+  background-color: #30414b;
+  padding: 4.8rem 0 6.4rem;
+  text-align: center;
+}
+
+.professional-title {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  color: #f1f4f9;
+}
+
+/* ****************************** */
+/* Profile Summary */
+/* ****************************** */
+
+.section-profile-summary {
+  padding: 3.2rem 4.8rem;
+  background-color: #e7ead7;
+}
+
+.profile-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-summary {
+  padding: 1.6rem 0;
+}
+
+.profile-summary-img {
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.profile-summary-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* ****************************** */
+/* Profile Details */
+/* ****************************** */
+
+.profile-details-container {
+  padding: 3.2rem 4.8rem;
+  background-color: #f7f9f9;
+  gap: 6.4rem;
+}
+
+.details {
+  padding: 2.4rem 0;
+}
+
+.details:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+/* ****************************** */
+/* Contact Details */
+/* ****************************** */
+
+.contact-details .heading-secondary {
+  display: none;
+}
+
+.contact-details {
+  padding-top: 0px;
+}
+
+.social-details-list {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  gap: 1.2rem;
+}
+
+.social-details-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.social-details-icon {
+  font-size: 2rem;
+}
+
+.social-details-link:link,
+.social-details-link:visited {
+  text-decoration: none;
+  color: #30414b;
+  font-size: 1.6em;
+}
+
+.social-details-link:hover,
+.social-details-link:active {
+  color: #405664;
+}
+
+/* ****************************** */
+/* Education Details */
+/* ****************************** */
+.education-details {
+  font-size: 1.6rem;
+}
+
+.education-details-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.specialization {
+  font-weight: 500;
+}
+
+.education-years {
+  font-size: 1.4rem;
+}
+
+/* ****************************** */
+/* Skills Details*/
+/* ****************************** */
+
+.skills-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1rem;
+  font-size: 1.6rem;
+}
+
+/* ****************************** */
+/* Languages Details */
+/* ****************************** */
+
+.languages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+/* ****************************** */
+/* Projects Details */
+/* ****************************** */
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.project-link:link,
+.project-link:visited {
+  display: inline-block;
+  color: #30414b;
+}
+
+.project-link:hover,
+.project-link:active {
+  color: #405664;
+}
+
+/* ****************************** */
+/* Work Experience */
+/* ****************************** */
+
+.experience-details-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.position-details-container:not(:last-child) {
+  margin-bottom: 3.2rem;
+}
+
+.experience-details-box::before {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #eee;
+  left: -3.2rem;
+  position: absolute;
+}
+
+.position-details-text {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.responsibilities-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* ****************************** */
+/* Code Examples */
+/* ****************************** */
+
+.task-example-description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.pre-code-example {
+  display: block;
+  padding: .5rem;
+  background-color: #eee;
+  border: 1px solid #999;
+  font-size: 1.6rem;
+}
+
+.code-example {
+  white-space: pre-wrap;
+}
+
+
+/* ****************************** */
+/* Footer */
+/* ****************************** */
+.footer {
+  padding: 4.8rem 3.2rem;
+  border-top: 1px solid #eee;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.copyright {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.github-link:link,
+.github-link:visited {
+  color: #30414b;
+}
+
+.github-link:hover,
+.github-link:active {
+  color: #405664;
+}
+
+.rs-school-logo {
+  height: 3.4rem;
+}
